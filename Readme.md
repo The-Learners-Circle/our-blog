@@ -10,7 +10,7 @@
 
 <div id="badges-row2" align="center">
     <a href="https://discord.gg/dDbxfdjb">
-          <img src="https://img.shields.io/discord/102860784329052160?logo=discord&logoColor=f5f5f5&lable=discord"/>
+          <img src="https://img.shields.io/discord/102860784329052160?logo=discord&logoColor=f5f5f5&label=discord"/>
     </a>
 </div>
 
