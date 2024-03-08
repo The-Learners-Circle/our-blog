@@ -1,6 +1,18 @@
-<a href="https://github.com/The-Learners-Circle/our-blog">
-    <img alt="logo" src="docs/img/android-chrome-192x192.png" height="99">
-</a>
+<div id="badges-row1" align="center">
+    <a href="https://github.com/The-Learners-Circle/our-blog">
+        <img alt="logo" src="docs/img/android-chrome-192x192.png" height="99">
+    </a>
+</div>
+
+<div id="badges-row1" align="center">
+  <img src="https://img.shields.io/github/followers/The-Learners-Circle?logo=github"/>
+</div>
+
+<div id="badges-row2" align="center">
+    <a href="https://discord.gg/dDbxfdjb">
+          <img src="https://img.shields.io/discord/102860784329052160?logo=discord&logoColor=f5f5f5&lable=discord"/>
+    </a>
+</div>
 
 # Our Blog - Learn programming by this project
 We will build a team blog platform. In the process of building this application, the following are what you will learn in here:
@@ -8,7 +20,7 @@ We will build a team blog platform. In the process of building this application,
 - React
 - Java
 - SpringBoot
-- Maven (version 3.6.1 or later)
+- Maven
 - Mysql
 - Others
 
