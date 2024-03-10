@@ -37,3 +37,10 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/our-blog-ui/our-blog-ui/next-env.d.ts
+/our-blog-ui/our-blog-ui/package-lock.json
+/our-blog-ui/next-env.d.ts
+/our-blog-ui/package-lock.json
+/our-blog-ui/node_modules/
+/our-blog-ui/.idea
+/our-blog-ui/.next
