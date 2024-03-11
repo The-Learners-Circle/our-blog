@@ -15,8 +15,8 @@
 </div>
 
 # Our Blog - Learn programming by this project
-We will build a team blog platform. In the process of building this application, the following are what you will learn in here:
-- JavaScript 
+We will build a team blog platform. In the process of building this application, the following are what you will learn here:
+- JavaScript(TypeScript)
 - React
 - Java
 - SpringBoot
@@ -50,10 +50,10 @@ Maybe you haven't heard of [Maven](https://maven.apache.org/). Take it easy, it 
 There is a difference between Java and other languages. Java doesn't have its own package management tool.
 In comparison, golang has 'go mod', python has 'pip', rust has 'cargo', node has npm, etc.
 
-Why do we need a package management tool? Imagine this situation: One day, we need a tool to process something about date and there is already ready-made open source code. We will download the source code and compile into our project. It's so stupid.
+Why do we need a package management tool? Imagine this situation: One day, we need a tool to process something about date and there is already ready-made open-source code. We will download the source code and compile into our project. It's so stupid.
 But if someone has uploaded the public code to somewhere where we can get the code from directly when we use it, it's amazing. 
 
-For example, I want to use a collection utils supported by Google, I just need do it by this in Maven:
+For example, if I want to use a collection utils supported by Google, I just need to do it by this in Maven:
 ```xml
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -63,7 +63,7 @@ For example, I want to use a collection utils supported by Google, I just need d
 ```
 Then, when we compile the project before running, Maven will download the source code and compile it into our project. And the somewhere is the [Maven Repository](https://maven.apache.org/repositories/index.html).
 
-That's why every language needs the package management tool. In Java world, there are two tools to let you choose: Maven or Gradle.
+That's why every language needs a package management tool. In Java world, there are two tools to let you choose: Maven or Gradle.
 
 Why choose Maven? There is no particular reason to choose one or the other. Maven and Gradle are both easy to use. Once you master one, the other will come naturally to you.
 
@@ -72,25 +72,56 @@ Sorry again. No detailed installation tutorial here. Try to google it. Remember,
 [Official download address](https://maven.apache.org/)
 Remember to download the versions later than 3.6.3, as Springboot 3.2.3 requires Maven 3.6.3 or later.
 
-## JavaScript
-// todo later
+## JavaScript or TypeScript
+Actually, we will choose [TypeScript](npx create-next-app@latest) as the front-end language.
+
+Why is TypeScript? Now, more projects tend to TS than JS as its strongly typed feature. 
+
+Don't worry. The TypeScripty is very similar to JavaScript, it is easy to learn.
+
 ## React
-// todo later
+
+The front-end framework we will choose is React. (Another: VUE)
+
+Why choose it? See the picture below. It is the most popular.
+
+![img.png](./docs/img/react-popular.png)
+
+## Node.js Installation
+
+If you want to use React, you need to install [Node.js](https://nodejs.org/en) (the latest version).
+
+Do you remember the package management? Yes, we manage the front-end dependencies by npm which is supported by Node.js.
+
+## Next.js
+
+[Next.js](https://nextjs.org/learn/dashboard-app/getting-started) is a frame of React. It helps us to create a React project quickly.
 
 # How to start
+
 // todo later
 ## run the backend locally
+
+Run the main method of Application(com.leanerscircle.web.Application).
+
 ## run the frontend locally
-## deploy backend on linux server
-## deploy frontend on linux server
+
+```shell
+cd our-blog-ui
+npm install
+npm run dev
+```
+
+## deploy backend on Linux server
+## deploy frontend on Linux server
 
 # How to contribute your code
 > I assume you know git - the version control tool.
 
-I recommend you to use pull request to contribute your code. If everyone has access to the main branch, it will be chaotic in a complex project.
+I recommend you use pull request to contribute your code. If everyone has access to the main branch, it will be chaotic in a complex project.
 Maybe you can refer to this [tutorial](https://opensource.guide/how-to-contribute/#opening-an-issue).
 
-I want to mock the real process of contributing code in open source world, it will be very helpful for you.
+I want to mock the real process of contributing code in open-source world, it will be very helpful for you.
 
 Maybe, right now you don't know anything about web development, you don't think you could contribute your power. Never think that! 
 
@@ -107,4 +138,7 @@ How the hell to create a pr?
 Just to try it! There must be many errors in Readme file, cause of my poor English!
 
 # Project directory structure
-// todo later
+- our-blog: the root
+- docs: some public doc files
+- our-blog-ui: contains all codes about front-end
+- our-blog-web: The controller and service layers of Java service.
