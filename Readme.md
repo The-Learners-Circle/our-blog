@@ -45,7 +45,8 @@ Then just scroll down to the instructions.
 
 From there you just follow the instructions.  One hiccup I had was that it gave me an error in the terminal the first time I tried to install the download.  It basically said that the package didn't exist.  Apparently it was because the package wasn't in the location that it was looking.  I decided to move the download to the home directory and then tried the instructions agains and everything worked.
 
-The second thing you have to think about is your IDE.  Is it setup for Java.  I google Java for VS code and found the following website: https://code.visualstudio.com/docs/java/java-debugging.![Java VS code](JavaVScodeExtension1.png?raw=true "Java Downloads Page")
+The second thing you have to think about is your IDE.  Is it setup for Java.  I google Java for VS code and found the following website: https://code.visualstudio.com/docs/java/java-debugging.  
+![Java VS code](JavaVScodeExtension1.png?raw=true "Java Downloads Page")
 
 I clicked the purple button right below the header that says Install.  ![Screenshot of Java Download page](JavaVScodeExtension2.png?raw=true "Java Downloads Page")
 
