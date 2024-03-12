@@ -35,8 +35,10 @@ I downloaded Java from the official source which is Oracle: [Oracle java downloa
 ![Screenshot of Java Download page](JavaDownloadsPage.png?raw=true "Java Downloads Page")
 
 I downloaded the version for my machine which is 64bit cpu with debian based linux installed.  The link is highlighted in the screenshot.![Screenshot of Java Download page](JavaDownloadsPage2.png?raw=true "Java Downloads Page 2")
+
+Right below that is the link to the installation instructions.![Screenshot of Java Download page](JavaInstallationInstructionsLink.png?raw=true "Installation Instructions Link")
 ![Screenshot of Java Download page](JavaInstallationGuide.png?raw=true "Java Downloads Page")
-On the next screen click the Linux link between Windows and macOs, which will take you to the instructions for your system.![Java Installation Guide](JavaInstallationGuide2.png?raw=true "Java Installation Guide")
+On the next screen click the Linux link between Windows and macOs, which will take you to the instructions for your system.![Java Installation Guide](JavaInstallationGuide2.png?raw=true "Java Installation Guide")![Screenshot of Java Instructions link](JavaInstructionsLink.png)
 ![Screenshot of Java Download page](JavaInstallationGuide3.png?raw=true "Java Downloads Page")
 
 From there you just follow the instructions.  One hiccup I had was that it gave me an error in the terminal the first time I tried to install the download.  It basically said that the package didn't exist.  Apparently it was because the package wasn't in the location that it was looking.  I decided to move the download to the home directory and then tried the instructions agains and everything worked.
