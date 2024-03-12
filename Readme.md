@@ -50,7 +50,7 @@ The second thing you have to think about is your IDE.  Is it setup for Java.  I 
 
 I clicked the purple button right below the header that says Install.  ![Screenshot of Java Download page](JavaVScodeExtension2.png?raw=true "Java Downloads Page")
 
-Bonus tip.  Now how to start learning Java?  I'm taking a free mooc by the University of Helsinki.  Yes that's the Helsinki that's in Finland, but don't worry because the course is in English.
+Bonus tip.  Now how to start learning Java?  I'm taking a free mooc by the University of Helsinki.  Yes that's the Helsinki that's in Finland, but don't worry because the course is in English.[Java Helsinki Mooc](https://java-programming.mooc.fi/part-1/2-printing)
 
 ## Spring Boot
 If you want to build a server in Java, [Spring](https://spring.io/projects/spring-framework) is the most popular framework in the world. Try to learn it later.
