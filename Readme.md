@@ -26,18 +26,26 @@ We will build a team blog platform. In the process of building this application,
 
 # Prerequisites
 ## Java Installation
-If you are totally a beginner in Java, the first step is to install Java. There are many released versions of Java as Java has a long history.
+ 
+ Hey King here. So how to install Java?  Well this depends on your operating system.  So here I will talk about the process that I used for my operating system which is Ubuntu, a linux based operating system.
 
-So which version do we need? Think about it, if you were to buy an iPhone, wouldn't you buy the latest version? So, why not use the latest version of Java?
+So there are two things that you have to think about.  Where to download Java and how to actually use it in your ide.
 
-JDK 21 is the latest long-term support release of Java SE Platform. We will use this latest version which has more new features, it will bring more benefits when we are learning.
+I downloaded Java from the official source which is Oracle: [Oracle java download page](https://www.oracle.com/java/technologies/downloads/#jdk21-linux).
+![Screenshot of Java Download page](JavaDownloadsPage.png?raw=true "Java Downloads Page")
 
-I'm sorry that I can't tell you how to install Java step by step. It's not very complex. Just go to the [Oracle java download page](https://www.oracle.com/java/technologies/downloads/#jdk21-linux) and choose the suitable product for your machine.
+I downloaded the version for my machine which is 64bit cpu with debian based linux installed.  The link is highlighted in the screenshot.![Screenshot of Java Download page](JavaDownloadsPage2.png?raw=true "Java Downloads Page 2")
+![Screenshot of Java Download page](JavaInstallationGuide.png?raw=true "Java Downloads Page")
+On the next screen click the Linux link between Windows and macOs, which will take you to the instructions for your system.![Java Installation Guide](JavaInstallationGuide2.png?raw=true "Java Installation Guide")
+![Screenshot of Java Download page](JavaInstallationGuide3.png?raw=true "Java Downloads Page")
 
-> Generally, I will choose the installer to install in macOS or windows, it is easier than compress archive.
-> If you are on windows, you should config the environment variables.
+From there you just follow the instructions.  One hiccup I had was that it gave me an error in the terminal the first time I tried to install the download.  It basically said that the package didn't exist.  Apparently it was because the package wasn't in the location that it was looking.  I decided to move the download to the home directory and then tried the instructions agains and everything worked.
 
-Hi, guys. Don't worry! Just ask me if you have any questions during the installation process.☘️
+The second thing you have to think about is your IDE.  Is it setup for Java.  I google Java for VS code and found the following website: https://code.visualstudio.com/docs/java/java-debugging.![Java VS code](JavaVScodeExtension1.png?raw=true "Java Downloads Page")
+
+I clicked the purple button right below the header that says Install.  ![Screenshot of Java Download page](JavaVScodeExtension2.png?raw=true "Java Downloads Page")
+
+Bonus tip.  Now how to start learning Java?  I'm taking a free mooc by the University of Helsinki.  Yes that's the Helsinki that's in Finland, but don't worry because the course is in English.
 
 ## Spring Boot
 If you want to build a server in Java, [Spring](https://spring.io/projects/spring-framework) is the most popular framework in the world. Try to learn it later.
